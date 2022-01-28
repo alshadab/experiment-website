@@ -1,0 +1,142 @@
+body{
+    font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Code Pro', monospace;
+    margin:0;
+}
+h1{
+    font-size: 30px;
+}
+.half-width{
+    width:30%;
+    float:left;
+   
+    
+    padding-left: 20px;
+   }
+   .new{
+    margin-top: 300px;
+    margin-left: 300px;
+   }
+   .new2{
+    margin-top: 200px;  
+   }
+.half-width img{
+    width:100%;
+}
+.header-bg{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height:1050px;
+}
+.new a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(231, 146, 131),rgb(240, 75, 103));
+    padding:12px 30px;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.butt{
+    margin-top: 60px;
+}
+.img2{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.line1 a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(231, 146, 131),rgb(240, 75, 103));
+    padding:12px 30px;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.line1{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.middle-bg{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    height:1050px;
+}
+
+
+.experience{
+    height:800px;
+    text-align: center;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.one{
+    width:20%;
+    float:left;
+    padding:3%;
+    
+    margin-left: 80px;
+    
+
+}
+.one img{
+    width:120%;
+}
+
+.footer-im{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    height:1200px;
+    text-align: center;
+    padding: 80px 50px;
+}
+.footer-im h1{
+    font-size: 40px;
+}
+.footer-im h4{
+    font-size: 30px;
+}
+.footer-im h5{
+    font-size: 20px;
+}
+
+.marg{
+    padding-top:40px;
+}
+#para{
+    padding:70px;
+}
+.box{
+    background-image: linear-gradient(45deg,rgb(231, 146, 131),rgb(240, 75, 103));
+    width:500px;
+    padding:70px 250px;
+    text-align: center;
+    margin-left: 320px;
+    border-radius: 10px;
+}
+.box p{
+    font-size: 15px;
+    color:white;
+}
+.box a{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+   
+    
+}
+footer{
+    color: gray;
+    text-align: center;
+}
+.marg-footer{
+    margin:80px;
+}
+.box button{
+    margin-top: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,rgb(233, 184, 78),tomato);
+    cursor: pointer;
+}
