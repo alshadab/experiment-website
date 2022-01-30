@@ -140,3 +140,24 @@ footer{
     background-image: linear-gradient(45deg,rgb(233, 184, 78),tomato);
     cursor: pointer;
 }
+.image img{
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    
+}
+@keyframes slidein {
+    from {
+      margin-left: 500%;
+      width: 100%;
+    }
+  50%{
+      margin-left: 0%;
+      width: 100%;
+  }
+    to {
+      margin-right: 1000%;
+      width: 100%;
+    }
+  }
